@@ -43,7 +43,6 @@ header {
         @include margin-padding(100px, 0, 0, 0, true);
         animation: trans-1 4.3s ease;
         position: relative;
-        right: -55%;
         .header {
           display: unset;
           .header-title {
@@ -155,13 +154,11 @@ header {
 @keyframes trans-1 {
   0% {
     opacity: 0;
-    right: -55%;
   }
 50%{
   opacity: 0;
 }
   100% {
     opacity: 1;
-    right: 0%;
   }
 }
